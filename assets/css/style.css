@@ -1,1 +1,204 @@
 @import url("reset.css");
+
+body {
+	background-image: url("../images/concrete_seamless.png");
+	background-color: #ffffff;
+	background-repeat: repeat;
+	margin: 0 auto;
+}
+
+
+h1, h2, figcaption {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+a, p, footer, form {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+/*top bar and navigation*/
+#topbar {
+	height: 90px;
+	background-color: #ffffff;
+	border-bottom: 2px #cccccc solid;
+}
+
+
+nav {
+	float: right;
+	padding: 35px 0;
+	list-style-type: none;
+}
+
+#logo {
+	float: left;
+	overflow: hidden;
+	background-color: #4aaaa5;
+	padding: 33px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+nav ul li {
+	border-right: 1px #cccccc solid;
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+
+nav ul li a {
+	color: #777777;
+}
+
+.navlink {
+	display: inline;
+	width: 80px;
+	padding: 0 10px;
+	font-size: 1.1em;
+
+}
+
+/*content*/
+.main {
+	padding: 40px 0;
+}
+
+section {
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	border: 1px #dddddd solid;
+	margin: 0 0 40px 0;
+}
+
+section h2 {
+	padding: 35px 0;
+	margin: 0px 35px;
+	font-size: 1.5em;
+	color: #4aaaa5;
+	font-weight: bold;
+	border-bottom: 2px #cccccc solid;
+}
+
+article {
+	padding: 30px 35px;
+	font-size: 1.1em;
+	color: #777777;
+	line-height: 200%;
+}
+
+article p {
+	margin-top: -10px;
+}
+
+#bio-pic {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+/*forms*/
+form {
+	padding: 30px 35px;
+	color: #777777;
+}
+
+input[type=text], input[type=email], textarea {
+	width: 100%;
+	font-size: 0.7em;
+	padding: 5px 0 5px 5px;
+	margin: 10px 0 20px 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input[type=text]::placeholder, input[type=email]::placeholder {
+	color: #cccccc;
+	padding: 5px 0 5px 5px;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 20px;
+	margin: 10px 0;
+	border: none;
+}
+
+/*portfolio items*/
+figure {
+	float: left;
+	position: relative;
+	margin: 35px 35px 0 35px;
+}
+
+figure img {
+	width: 255px;
+	height: 200px;
+}
+
+figcaption {
+	position: absolute;
+	text-align: center;
+	bottom: 10px;
+	width: 100%;
+	padding: 15px 0;
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
+/*social icon links*/
+aside {
+	width: 270px;
+	float: right;
+	background-color: #ffffff;
+	border: 1px #dddddd solid;
+}
+
+aside h2 {
+	padding: 25px 0;
+	margin: 0px 35px;
+	font-size: 1.1em;
+	color: #4aaaa5;
+	font-weight: bold;
+	border-bottom: 2px #cccccc solid;
+}
+
+aside ul {
+	padding: 30px 35px;
+}
+
+.media-link {
+	display: inline;
+	padding: 0 2px;
+}
+
+li a img {
+	width: 60px;
+	height: 60px;
+}
+
+/*footer*/
+footer {
+	padding: 40px 0;
+	text-align: center;
+	background-color: #666666;
+	border-top: #4aaaa5 10px solid;
+	color: #cccccc;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+/*utility*/
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.clear {
+	clear: both;
+}
