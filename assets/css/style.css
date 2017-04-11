@@ -1,7 +1,7 @@
 @import url("reset.css");
 
 body {
-	background-image: url("../images/concrete_seamless.png");
+	background-image: url("../images/swirl_pattern.png");
 	background-color: #ffffff;
 	background-repeat: repeat;
 	margin: 0 auto;
@@ -22,6 +22,7 @@ a, p, footer, form {
 	height: 90px;
 	background-color: #ffffff;
 	border-bottom: 2px #cccccc solid;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px 0px;
 }
 
 
@@ -72,6 +73,8 @@ section {
 	background-color: #ffffff;
 	border: 1px #dddddd solid;
 	margin: 0 0 40px 0;
+	padding: 0 0 40px 0;
+	box-shadow: rgba(0, 0, 0, 0.3) -2px 2px 6px 0px;
 }
 
 section h2 {
@@ -84,7 +87,7 @@ section h2 {
 }
 
 article {
-	padding: 30px 35px;
+	padding: 30px 35px 0 35px;
 	font-size: 1.1em;
 	color: #777777;
 	line-height: 200%;
@@ -98,12 +101,13 @@ article p {
 	width: 200px;
 	height: 200px;
 	float: left;
-	padding: 0 20px 0 0;
+	margin: 0 20px 0 0;
+	box-shadow: rgba(0, 0, 0, 0.3) -2px 2px 6px 0px;
 }
 
 /*forms*/
 form {
-	padding: 30px 35px;
+	padding: 30px 35px 0 35px;
 	color: #777777;
 }
 
@@ -157,6 +161,7 @@ aside {
 	float: right;
 	background-color: #ffffff;
 	border: 1px #dddddd solid;
+	box-shadow: rgba(0, 0, 0, 0.3) -2px 2px 6px 0px;
 }
 
 aside h2 {
