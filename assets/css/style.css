@@ -29,10 +29,13 @@ a, p, footer, form {
 	float: left;
 	overflow: hidden;
 	background-color: rgba(230, 97, 107, 1);
-	padding: 33px;
-	font-size: 1.5em;
+	padding: 10px 20px;
+	font-size: 70px;
 	font-weight: bold;
-	color: rgba(244, 246, 252, 1);
+	letter-spacing: 5px;
+	color: rgba(230, 97, 107, .9);
+	border-right: 2px rgba(90, 125, 124, 1) solid;
+	border-left: 2px rgba(90, 125, 124, 1) solid;
 }
 
 nav {
@@ -212,6 +215,25 @@ footer {
 
 .clear {
 	clear: both;
+}
+
+.current {
+	color: rgba(230, 97, 107, 1);
+}
+
+.shadow {
+  text-shadow: -2px 2px 0 rgba(0, 0, 0, .9),
+               -3px 3px 0 rgba(0, 0, 0, 0.7),
+               -4px 4px 0 rgba(126,53,59, 0.5),
+               -5px 5px 0 rgba(126,53,59, 0.4),
+               -6px 6px 0 rgba(126,53,59, 0.35),
+               -7px 7px 0 rgba(126,53,59, 0.30),
+               -8px 8px 0 rgba(126,53,59, 0.25),
+               -9px 9px 0 rgba(126,53,59, 0.20),
+               -10px 10px 0 rgba(126,53,59, 0.15),
+               -11px 11px 0 rgba(126,53,59, 0.10),
+               -12px 12px 0 rgba(126,53,59, 0.05),
+               2px -2px 0 rgba(255,255,255,.3);
 }
 
 /* pallette
