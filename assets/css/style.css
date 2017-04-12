@@ -196,8 +196,25 @@ aside ul {
 }
 
 li a img {
+	position: relative;
 	width: 60px;
 	height: 60px;
+}
+
+li a img:hover {
+	animation: jiggle .2s ease 0s 3;
+}
+
+@keyframes jiggle {
+    0% {
+    top: 0;
+  }
+  50% {
+    top: 5px
+  }
+  100% {
+    top: 0;
+  }
 }
 
 /*footer*/
