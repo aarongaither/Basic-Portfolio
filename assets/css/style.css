@@ -143,6 +143,11 @@ input[type=submit] {
 	padding: 10px 20px;
 	margin: 10px 0;
 	border: none;
+	transition: 1s ease;
+}
+
+input[type=submit]:hover {
+	background-image: linear-gradient(to top, rgba(230, 97, 107, 1) 0%, rgba(244, 246, 252, .3) 50%, rgba(230, 97, 107, 1) 100%);
 }
 
 /*portfolio items*/
@@ -202,7 +207,7 @@ li a img {
 }
 
 li a img:hover {
-	animation: jiggle .2s ease 0s 3;
+	animation: jiggle .2s ease 0s 2;
 }
 
 @keyframes jiggle {
