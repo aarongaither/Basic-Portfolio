@@ -1,14 +1,15 @@
 @import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
 body {
 	background-image: url("../images/swirl_pattern.png");
-	background-color: #ffffff;
+	background-color: rgba(244, 246, 252, 1);
 	background-repeat: repeat;
 	margin: 0 auto;
 }
 
 h1, h2, figcaption {
-	font-family: Georgia, Times, "Times New Roman", serif;
+	  font-family: 'Kaushan Script', cursive;
 }
 
 a, p, footer, form {
@@ -19,19 +20,19 @@ a, p, footer, form {
 /*top bar and navigation*/
 #topbar {
 	height: 90px;
-	background-color: #ffffff;
-	border-bottom: 2px #cccccc solid;
+	background-color: rgba(244, 246, 252, 1);
+	border-bottom: 2px rgba(90, 125, 124, 1) solid;
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px 0px;
 }
 
 #logo {
 	float: left;
 	overflow: hidden;
-	background-color: #4aaaa5;
+	background-color: rgba(230, 97, 107, 1);
 	padding: 33px;
 	font-size: 1.5em;
 	font-weight: bold;
-	color: #ffffff;
+	color: rgba(244, 246, 252, 1);
 }
 
 nav {
@@ -46,7 +47,7 @@ nav {
 nav li {
 	display: inline;
 	font-size: 18px;
-	border-right: 1px #cccccc solid;
+	border-right: 1px rgba(83, 62, 45, 1) solid;
 }
 
 nav li:last-child {
@@ -56,13 +57,13 @@ nav li:last-child {
 nav a {
 	width: 80px;
 	padding: 0 15px;
-	color: #777777;
+	color: rgba(35, 44, 51, 1);
 	transition: .8s ease;
 }
 
 nav a:hover:not(.current) {
-	color: #ffffff;
-	background-color: #4aaaa5;
+	color: rgba(244, 246, 252, 1);
+	background-color: rgba(230, 97, 107, 1);
 }
 
 /*content*/
@@ -73,8 +74,8 @@ nav a:hover:not(.current) {
 section {
 	width: 650px;
 	float: left;
-	background-color: #ffffff;
-	border: 1px #dddddd solid;
+	background-color: rgba(244, 246, 252, 1);
+	border: 1px rgba(90, 125, 124, .5) solid;
 	margin: 0 0 40px 0;
 	padding: 0 0 40px 0;
 	box-shadow: rgba(0, 0, 0, 0.3) -2px 2px 6px 0px;
@@ -84,9 +85,9 @@ section h2 {
 	padding: 35px 0;
 	margin: 0px 35px;
 	font-size: 1.5em;
-	color: #4aaaa5;
+	color: rgba(230, 97, 107, 1);
 	font-weight: bold;
-	border-bottom: 2px #cccccc solid;
+	border-bottom: 2px rgba(83, 62, 45, 1) solid;
 }
 
 article {
@@ -105,6 +106,7 @@ article p {
 	height: 200px;
 	float: left;
 	margin: 0 20px 0 0;
+	border: 1px rgba(90, 125, 124, .5) solid;
 	box-shadow: rgba(0, 0, 0, 0.3) -2px 2px 6px 0px;
 }
 
@@ -124,12 +126,12 @@ input[type=text], input[type=email], textarea {
 }
 
 input[type=text]::placeholder, input[type=email]::placeholder {
-	color: #cccccc;
+	color: rgba(83, 62, 45, .5);
 	padding: 5px 0 5px 5px;
 }
 
 input[type=submit] {
-	background-color: #4aaaa5;
+	background-color: rgba(230, 97, 107, 1);
 	color: white;
 	padding: 10px 20px;
 	margin: 10px 0;
@@ -154,8 +156,8 @@ figcaption {
 	bottom: 10px;
 	width: 100%;
 	padding: 15px 0;
-	color: #ffffff;
-	background-color: #4aaaa5;
+	color: rgba(244, 246, 252, 1);
+	background-color: rgba(230, 97, 107, 1);
 	z-index: 1;
 }
 
@@ -163,8 +165,8 @@ figcaption {
 aside {
 	width: 270px;
 	float: right;
-	background-color: #ffffff;
-	border: 1px #dddddd solid;
+	background-color: rgba(244, 246, 252, 1);
+	border: 1px rgba(90, 125, 124, .5) solid;
 	box-shadow: rgba(0, 0, 0, 0.3) -2px 2px 6px 0px;
 }
 
@@ -172,9 +174,9 @@ aside h2 {
 	padding: 25px 0;
 	margin: 0px 35px;
 	font-size: 1.1em;
-	color: #4aaaa5;
+	color: rgba(230, 97, 107, 1);
 	font-weight: bold;
-	border-bottom: 2px #cccccc solid;
+	border-bottom: 2px rgba(83, 62, 45, 1) solid;
 }
 
 aside ul {
@@ -195,9 +197,9 @@ li a img {
 footer {
 	padding: 40px 0;
 	text-align: center;
-	background-color: #666666;
-	border-top: #4aaaa5 10px solid;
-	color: #cccccc;
+	background-color: rgba(35, 44, 51, 1);
+	border-top: rgba(230, 97, 107, 1) 10px solid;
+	color: rgba(244, 246, 252, 1);
 	font-size: 0.8em;
 	font-weight: bold;
 }
@@ -211,3 +213,10 @@ footer {
 .clear {
 	clear: both;
 }
+
+/* pallette
+main, light carmine pink : rgba(230, 97, 107, 1);
+alt, dark liver: rgba(83, 62, 45, 1);
+borders, wintergreen dream: rgba(90, 125, 124, 1);
+bg, white smoke: rgba(244, 246, 252, 1);
+text/dark, charleston green: rgba(35, 44, 51, 1);*/
