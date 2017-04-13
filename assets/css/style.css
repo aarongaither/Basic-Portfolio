@@ -36,7 +36,7 @@ a, p, footer, form {
 	font-size: 70px;
 	font-weight: bold;
 	letter-spacing: 5px;
-	color: rgba(230, 97, 107, .9);
+	color: rgba(185, 150, 150, 1);
 	border-right: 2px rgba(90, 125, 124, 1) solid;
 	border-left: 2px rgba(90, 125, 124, 1) solid;
 }
