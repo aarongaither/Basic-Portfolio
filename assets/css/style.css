@@ -6,7 +6,7 @@ body {
 	background-color: rgba(244, 246, 252, 1);
 	background-repeat: repeat;
 	margin: 0 auto;
-	min-height: 100%;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 }
@@ -22,10 +22,10 @@ a, p, footer, form {
 
 /*top bar and navigation*/
 #topbar {
-	height: 90px;
 	background-color: rgba(244, 246, 252, 1);
 	border-bottom: 2px rgba(90, 125, 124, 1) solid;
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px 0px;
+	flex: none;
 }
 
 #logo {
@@ -75,6 +75,7 @@ nav a:hover:not(.current) {
 /*content*/
 .main {
 	padding: 40px 0;
+	flex: 1 0 auto;
 }
 
 section {
@@ -85,7 +86,6 @@ section {
 	margin: 0 0 40px 0;
 	padding: 0 0 40px 0;
 	box-shadow: rgba(0, 0, 0, 0.3) -2px 2px 6px 0px;
-	flex: 1;
 }
 
 section h2 {
@@ -231,6 +231,7 @@ footer {
 	color: rgba(244, 246, 252, 1);
 	font-size: 0.8em;
 	font-weight: bold;
+	flex: none;
 }
 
 /*utility*/
