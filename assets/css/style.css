@@ -30,6 +30,7 @@ a, p, footer, form {
 
 #logo {
 	float: left;
+	position: relative;
 	overflow: hidden;
 	background-color: rgba(230, 97, 107, 1);
 	padding: 10px 20px;
@@ -39,6 +40,27 @@ a, p, footer, form {
 	color: rgba(230, 97, 107, .7);
 	border-right: 2px rgba(90, 125, 124, 1) solid;
 	border-left: 2px rgba(90, 125, 124, 1) solid;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: -5px;
+  background-color: rgba(230, 97, 107, 1);
+  width: 100%;
+  height: 100%;
+  animation: fade 10s linear;
+  opacity: 0.0;
+  overflow: hidden;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.0;
+  }
 }
 
 nav {
@@ -223,7 +245,7 @@ li a img:hover {
     top: 0;
   }
   50% {
-    top: 5px
+    top: 5px;
   }
   100% {
     top: 0;
