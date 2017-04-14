@@ -34,6 +34,7 @@ a, p, footer, form {
 	overflow: hidden;
 	background-color: rgba(230, 97, 107, 1);
 	padding: 10px 20px;
+	font-family: 'Kaushan Script', cursive;
 	font-size: 70px;
 	font-weight: bold;
 	letter-spacing: 5px;
